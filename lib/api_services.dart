@@ -6,7 +6,7 @@ class ApiService {
   
   Future<List<DataModel>?> getDataApi() async {
     final response =
-        await http.get(Uri.parse("https://dummyjson.com/products"));
+        await http.get(Uri.parse("API HERE"));
 
     //Api Status Code Checking.......
     if (response.statusCode == 200) {
